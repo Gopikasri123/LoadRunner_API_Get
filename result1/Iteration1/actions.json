@@ -1,0 +1,26 @@
+[
+    {
+        "actionName": "Product",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: Product_API",
+                "infFile": "t2.inf",
+                "time": 1764068189113
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "Customer",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Customer_API",
+                "infFile": "t4.inf",
+                "time": 1764068193497
+            }
+        ],
+        "transactions": []
+    }
+]

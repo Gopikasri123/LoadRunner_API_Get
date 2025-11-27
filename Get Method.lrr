@@ -1,0 +1,33 @@
+[Scenario]
+Product=Professional Performance Engineering Controller
+Version=2025.3.0.0
+Path=Scenario1
+Subject=
+Result_file=C:\LoadRunnerScript\Product\Product.lrr
+Description=
+ResultName=Product
+Time_Zone=-19800
+Start_time=1762857925
+Daylight_Bias=0
+Stop_time=1762857988
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 1 Vusers: 1 every 00:00:15 (HH:MM:SS); Run for 00:01:00 (HH:MM:SS); Stop all Vusers: 1 every 00:00:30 (HH:MM:SS)
+Load Behavior=Initialize 1 Vusers every 00:00:15 (HH:MM:SS)
+Global Schedule=ST1_1E15;R60;SP1_1E30;
+[Scripts]
+Product_1=C:\LoadRunnerScript\Product\Product.usr
+[Scripts_types]
+Product_1=Multi+QTWeb

@@ -1,0 +1,13 @@
+[t2]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=application/json
+StepName=Custom Request: Product_API
+Total=1
+FileName1=t2.json
+RequestHeaderFile=t2_RequestHeader.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Product_API
+RequestBodyFile=t2_RequestBody.txt
+RawStepStartTime=1764068186880
+URL1=https://api.edp.henryschein.com/api/catalogs/Medical/products?itemCode=1462992

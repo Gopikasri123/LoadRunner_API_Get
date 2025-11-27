@@ -1,0 +1,55 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(12): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(12): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(13): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(13): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(13): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(16): web_custom_request("Product_API") started  	[MsgId: MMSG-26355]
+Action.c(16): Error -26607: HTTP Status-Code=504 (Gateway Timeout) for "https://api.edp.henryschein.com/api/catalogs/Medical/products?itemCode=1462992"  	[MsgId: MERR-26607]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Action.c(12): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(12): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(13): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(13): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(13): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(16): web_custom_request("Product_API") started  	[MsgId: MMSG-26355]
+Action.c(16): Error -26607: HTTP Status-Code=504 (Gateway Timeout) for "https://api.edp.henryschein.com/api/catalogs/Medical/products?itemCode=1462992"  	[MsgId: MERR-26607]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(12): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(12): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(13): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(13): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(13): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(16): web_custom_request("Product_API") started  	[MsgId: MMSG-26355]
+Action.c(16): Error -26607: HTTP Status-Code=504 (Gateway Timeout) for "https://api.edp.henryschein.com/api/catalogs/DentalAndMedical/products?itemCode=1462992"  	[MsgId: MERR-26607]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(12): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(12): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(13): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(13): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(13): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(16): web_custom_request("Product_API") started  	[MsgId: MMSG-26355]
+Action.c(16): Error -26607: HTTP Status-Code=504 (Gateway Timeout) for "https://api.edp.henryschein.com/api/catalogs/DentalAndMedical/products?itemCode=1462992"  	[MsgId: MERR-26607]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Action.c(12): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(12): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(13): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(13): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(13): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(16): web_custom_request("Product_API") started  	[MsgId: MMSG-26355]
+Action.c(16): Error -26607: HTTP Status-Code=504 (Gateway Timeout) for "https://api.edp.henryschein.com/api/catalogs/Medical/products?itemCode=1454525"  	[MsgId: MERR-26607]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

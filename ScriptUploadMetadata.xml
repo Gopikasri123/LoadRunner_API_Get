@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>Get Method</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Product.c" Filter="2" />
+    <FileEntry Name="Customer.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="Get Method.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="Get Method.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="SLAConfiguration.xml" Filter="2" />
+    <FileEntry Name="combined_Get Method.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="210476819440.idx" Filter="1" />
+    <FileEntry Name="21047681944_07p.715.idx" Filter="1" />
+    <FileEntry Name="21047681944_0HZ.269.idx" Filter="1" />
+    <FileEntry Name="21047681944_1L6.63.idx" Filter="1" />
+    <FileEntry Name="21047681944_3gS.159.idx" Filter="1" />
+    <FileEntry Name="21047681944_4ox.743.idx" Filter="1" />
+    <FileEntry Name="21047681944_a2i.211.idx" Filter="1" />
+    <FileEntry Name="21047681944_EBW.597.idx" Filter="1" />
+    <FileEntry Name="21047681944_eJ5.83.idx" Filter="1" />
+    <FileEntry Name="21047681944_GIm.483.idx" Filter="1" />
+    <FileEntry Name="21047681944_jLw.241.idx" Filter="1" />
+    <FileEntry Name="21047681944_km8.593.idx" Filter="1" />
+    <FileEntry Name="21047681944_muW.359.idx" Filter="1" />
+    <FileEntry Name="21047681944_nRT.303.idx" Filter="1" />
+    <FileEntry Name="21047681944_nUu.921.idx" Filter="1" />
+    <FileEntry Name="21047681944_nxQ.929.idx" Filter="1" />
+    <FileEntry Name="21047681944_p9Q.169.idx" Filter="1" />
+    <FileEntry Name="21047681944_PTV.519.idx" Filter="1" />
+    <FileEntry Name="21047681944_pvV.863.idx" Filter="1" />
+    <FileEntry Name="21047681944_QZI.221.idx" Filter="1" />
+    <FileEntry Name="21047681944_rxN.97.idx" Filter="1" />
+    <FileEntry Name="21047681944_vsS.193.idx" Filter="1" />
+    <FileEntry Name="21047681944_vxk.473.idx" Filter="1" />
+    <FileEntry Name="21047681944_w4u.617.idx" Filter="1" />
+    <FileEntry Name="21047681944_X3Q.261.idx" Filter="1" />
+    <FileEntry Name="21047681944_XSP.457.idx" Filter="1" />
+    <FileEntry Name="21047681944_Yf0.513.idx" Filter="1" />
+    <FileEntry Name="21047681944_yhC.567.idx" Filter="1" />
+    <FileEntry Name="21047681944_yxZ.361.idx" Filter="1" />
+    <FileEntry Name="21047681944_Z7d.983.idx" Filter="1" />
+    <FileEntry Name="21047681944_zAW.889.idx" Filter="1" />
+    <FileEntry Name="43116922440.idx" Filter="1" />
+    <FileEntry Name="72635655440.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="collate.txt" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="ControllerMonitoring.eve" Filter="1" />
+    <FileEntry Name="ControllerMonitoring.map" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="Get Method.c.pickle" Filter="1" />
+    <FileEntry Name="Get Method.ci" Filter="1" />
+    <FileEntry Name="Get Method.lrr" Filter="1" />
+    <FileEntry Name="Get Method.prm.bak" Filter="1" />
+    <FileEntry Name="localhost_1.eve" Filter="1" />
+    <FileEntry Name="localhost_1.map" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvdss.887.log" Filter="1" />
+    <FileEntry Name="mdrvFEl.681.log" Filter="1" />
+    <FileEntry Name="mdrvhWl.443.log" Filter="1" />
+    <FileEntry Name="mdrviau.577.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="offline.dat" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="Product.prm.bak" Filter="1" />
+    <FileEntry Name="product_1.cfg" Filter="1" />
+    <FileEntry Name="product_1.cfg.bak" Filter="1" />
+    <FileEntry Name="product_1.usp" Filter="1" />
+    <FileEntry Name="product_1.usr.bak" Filter="1" />
+    <FileEntry Name="RawData.eve" Filter="1" />
+    <FileEntry Name="RawData.map" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="res.ini" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="SqliteDb.db" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="_t_rep.eve" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+    <FileEntry Name="sum_data\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

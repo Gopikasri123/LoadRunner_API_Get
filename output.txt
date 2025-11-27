@@ -1,0 +1,49 @@
+Virtual User Script started at: 25-11-2025 16:26:26
+Starting action vuser_init.
+Web Turbo Replay of Opentext Performance Engineering 2025.3.0 for Windows 11; build 654 (Jul 09 2025 09:17:06)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\LoadRunnerScript\Get Method\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Product.
+Product.c(3): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Product.c(3): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Product.c(8): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Product.c(8): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Product.c(8): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Product.c(9): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+Product.c(9): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+Product.c(11): web_custom_request("Product_API") started  	[MsgId: MMSG-26355]
+Product.c(11): web_custom_request("Product_API") was successful, 1163 body bytes, 460 header bytes  	[MsgId: MMSG-26386]
+Product.c(21): web_get_int_property started  	[MsgId: MMSG-26355]
+Product.c(21): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Product.c(29): Response Code: 200
+Product.c(33): Catalog: Medical | ItemCode: 1462992
+Product.c(37): Response JSON:
+{"data":[{"catalogName":"Medical","itemCode":"1462992","itemName":"Amoxicillin Capsules 250mg Bottle 500/Bottle","itemWebDesc":"Amoxicillin Capsules 250mg Bottle 500/Bottle","itemExtendedDesc":"","itemCatalogDesc":"","itemImageUrl":"https://assets.henryschein.com/1462992_US_Front_01_-Amoxicillin-Capsules.jpg","itemVariation":"1462992","isReturnable":true,"manufacturerName":"Aurobindo Pharma USA, INC","manufacturerItemCode":"02-80271","availabilityCode":"Discontinued","stockType":"Stocked","substituteItemCode":"1437174","federalDrugClass":"Requires Prescription","unspsc":"51283400","ahfs":"Aminopenicillins","billingNdc":"65862001605","ndc":"6586201605","itemSpecification":{"Brand/Item":"Amoxicillin","Container Size":"500/Bottle","Container Type":"Bottle","Dosage Form":"Capsules","Strength":"250mg"},"itemCategory":{"desc1":"Pharmacy","desc2":"Rx","desc3":"Anti-Infectives"},"primaryUOM":{"uom":"BT","contents":"500/Bottle"}}],"meta":{"timestamp":"2025-11-25T10:56:27.971388Z","requestId":"cabef821-554d-43c1-8a30-1300a0809078","limit":100,"offset":0,"total":1,"elapsed_ms":1229}}
+Ending action Product.
+Starting action Customer.
+Customer.c(3): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Customer.c(3): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Customer.c(10): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Customer.c(10): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Customer.c(10): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Customer.c(11): web_add_header("Accept") started  	[MsgId: MMSG-26355]
+Customer.c(11): web_add_header("Accept") was successful  	[MsgId: MMSG-26392]
+Customer.c(13): Auth Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6InJ0c0ZULWItN0x1WTdEVlllU05LY0lKN1ZuYyIsImtpZCI6InJ0c0ZULWItN0x1WTdEVlllU05LY0lKN1ZuYyJ9.eyJhdWQiOiJhcGk6Ly81YTAwNDY3Ny1iYjJiLTQ5ZGItOTY0Ny0wYTNkOTMyMjQxZDEiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9jZDU2ODE1Yi05NDM2LTQyZmItYTA0ZC00NzVmOTUxMTQ5MDMvIiwiaWF0IjoxNzY0MDY3Nzc4LCJuYmYiOjE3NjQwNjc3NzgsImV4cCI6MTc2NDA3MTg4MywiYWNyIjoiMSIsImFpbyI6IkFXUUFtLzhhQUFBQUhkK3dTeWZIdTdSUWZPUE5lYWU4djd1RnFWcWU5UFpYNDlQWGhLSGxwMEdNalhIbFRlZTF5Nmd1UTV5ZlY5dWtYR1lWVDhVaUFnUXhtK2pPeVpZWnVrcElyVklzOVRPdU9BQVZ1VlR2NlN6c3lOQXlheVo5U1A4bCtoOTJLYy9NIiwiYW1yIjpbInB3ZCIsIm1mYSJdLCJhcHBpZCI6ImY4NTAzZTE2LWI0NmQtNDhhMC1iOGZhLWU1ZTI4MDgyNDdkZiIsImFwcGlkYWNyIjoiMCIsImRldmljZWlkIjoiZjM5YjAyYTItMTczMy00NzhiLTk4MmEtZDFkYWYzNGZlNzZmIiwiZmFtaWx5X25hbWUiOiJQIiwiZ2l2ZW5fbmFtZSI6IkdvcGlrYXNyaSIsImlwYWRkciI6IjE0Ljk3LjEyNy42NiIsIm5hbWUiOiJQLCBHb3Bpa2FzcmkgKEMpIiwib2lkIjoiZTFiYjcwNGMtMmM2OS00OWMzLTljYWItZWMwM2E5ZjhlNGI3Iiwib25wcmVtX3NpZCI6IlMtMS01LTIxLTEyMDI2NjA2MjktMTY3NzEyODQ4My03MjUzNDU1NDMtMjA1NjQ4IiwicmgiOiIxLkFRMEFXNEZXelRhVS0wS2dUVWRmbFJGSkEzZEdBRm9ydTl0SmxrY0tQWk1pUWRFTkFJOE5BQS4iLCJyb2xlcyI6WyJoc1VzZXIiXSwic2NwIjoidXNlcl9pbXBlcnNvbmF0aW9uIiwic2lkIjoiMDBhYjhhMjktYjEyMC1lMmJlLWIyODYtOTc1YTZiNTc1NzM0Iiwic3ViIjoiUXZVT0Z5ZmYtMEFpTXJTTU1TYTNrSTVBTnRKMzd6Nm9WRVg0LXp0OG1ibyIsInRpZCI6ImNkNTY4MTViLTk0MzYtNDJmYi1hMDRkLTQ3NWY5NTExNDkwMyIsInVuaXF1ZV9uYW1lIjoiR29waWthc3JpLlBAaGVucnlzY2hlaW4uY29tIiwidXBuIjoiR29waWthc3JpLlBAaGVucnlzY2hlaW4uY29tIiwidXRpIjoiMkJFTklmNGgwa2FUV2JnY0RjWVFBQSIsInZlciI6IjEuMCIsInhtc19mdGQiOiJFS1J0VEUyd0lrY2hyYlFwZ2NqYkJxRUhvV2pXVDl4QnFmSGpiQzRZZFRrQmRYTmxZWE4wTFdSemJYTSJ9.SuREpgT3breQ5fxS5GzFceAuHHRV2laLorFVaK4PNisR_Ei9ZmNdrCFmZ_-sBwxnEmwu8pcNstKS7bGoVDLd7_tdnlVlk_ZdbBE8l-8vnFuyW3zJvT8MyW7f6WIKA6Wr35HYd4cbzFz8AtKqAFk5Y64vCMi63R07SZ6j6euBrKVVvzedxaYOlp088E7ukivvfvmjGfVYAFrFxVjFSdWn-jAqQbLoswFZTLFJkFatQuU8T1vRFyRoDzXBcoEwA9ano7b4Zsv3xKpFBJOD0Y748NzKPCCat80wXz3T2hFjPDYsSj26yCfJn1y71hG3zfN24eempYQxI_zOBNKyTYvP4A
+Customer.c(17): web_url("Customer_API") started  	[MsgId: MMSG-26355]
+Customer.c(17): web_url("Customer_API") was successful, 655 body bytes, 337 header bytes  	[MsgId: MMSG-26386]
+Customer.c(24): web_get_int_property started  	[MsgId: MMSG-26355]
+Customer.c(24): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Customer.c(32): Response Code: 200
+Customer.c(35): Customer API Response:
+{"data":[{"billTo":{"id":"4113583","name":"GE Healthcare","streetAddress1":"3000 N Grandview Blvd","streetAddress2":"Accts Payable","city":"Waukesha","state":"WI","zipCode":"53188","countryCode":"US"},"shipTos":[{"id":"3895180","name":"Adeventist Health Rideout","streetAddress1":"726 4Th St","streetAddress2":"Attn: Biomed Dept.","city":"Marysville","state":"CA","zipCode":"95901","countryCode":"US","marketSegment":"MED","shipToStatus":"ACTIVE"}]}],"meta":{"timestamp":"2025-11-25T10:56:32.399509Z","requestId":"826487bd-620d-4075-b5e1-a01ab88aaf22","limit":100,"offset":0,"total":1,"elapsed_ms":1611}}
+Ending action Customer.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

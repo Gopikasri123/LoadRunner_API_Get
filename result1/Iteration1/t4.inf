@@ -1,0 +1,13 @@
+[t4]
+SnapshotXmlFile=snapshot_2.xml
+ContentType=application/json
+StepName=Url: Customer_API
+Total=1
+FileName1=t4.json
+RequestHeaderFile=t4_RequestHeader.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=1764068193459
+RawStepName=Customer_API
+RequestBodyFile=t4_RequestBody.txt
+RawStepStartTime=1764068189280
+URL1=https://qa.api.edp.henryschein.com/api/customers/3895180
