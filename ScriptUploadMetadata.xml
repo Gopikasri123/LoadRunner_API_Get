@@ -14,9 +14,11 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="Get Method.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="ScriptVcsSettings.xml" Filter="2" />
     <FileEntry Name="SLAConfiguration.xml" Filter="2" />
     <FileEntry Name="combined_Get Method.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name=".gitignore" Filter="1" />
     <FileEntry Name="210476819440.idx" Filter="1" />
     <FileEntry Name="21047681944_07p.715.idx" Filter="1" />
     <FileEntry Name="21047681944_0HZ.269.idx" Filter="1" />
@@ -89,6 +91,7 @@
     <FileEntry Name="SqliteDb.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="_t_rep.eve" Filter="1" />
+    <FileEntry Name=".git\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
     <FileEntry Name="sum_data\" Filter="1" />
   </GeneralFiles>

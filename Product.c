@@ -29,7 +29,6 @@ Product()
         lr_output_message("Response Code: %d", statusCode);
     }
 
-    // Print values
     lr_output_message("Catalog: %s | ItemCode: %s",
         lr_eval_string("{catalogname}"),
         lr_eval_string("{itemCode}"));
